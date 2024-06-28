@@ -1,0 +1,23 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  //COLORS
+  --color-primary: #5200ff;
+  --color-primary-light: #5200ff;
+  --color-primary-dark: #5200ff;
+
+  --color-secondary: #5200ff;
+  --color-secondary-light: #5200ff;
+  --color-secondary-dark: #5200ff;
+
+  --color-black: #1e1e1e;
+  --color-white: #e3e3e3;
+
+  --color-grey: #333333;
+  --color-grey-light: #333333;
+  --color-grey-dark: #333333;
+}
