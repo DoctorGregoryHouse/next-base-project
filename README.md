@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### SEO
 
 - [ ] Add opengraph-image.png
-- [ ] Update Metadata in layout.tsx
+- [ ] Update Metadata in layout.tsx and pages
 - [ ] Add Favicon
 - [ ] Update robots.txt
 - [ ] Update sitemap.xml
@@ -29,3 +29,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Analytics
 
 ### Basic Styling
+
+- [ ] Update Tailwind config
