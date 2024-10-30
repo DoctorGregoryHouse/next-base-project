@@ -20,6 +20,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### SEO
 
+- [ ] Add opengraph-image.png
+- [ ] Update Metadata in layout.tsx
+- [ ] Add Favicon
+- [ ] Update robots.txt
+- [ ] Update sitemap.xml
+
 ### Analytics
 
-###
+### Basic Styling
