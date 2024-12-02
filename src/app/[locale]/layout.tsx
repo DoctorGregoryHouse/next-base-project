@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./../globals.css";
 import CookieConsentBanner from "@/components/common/CookieConsentBanner";
+import pick from "lodash/pick";
 
 //i18n
 import { routing } from "@/i18n/routing";
@@ -59,7 +60,7 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={pick(messages, "Error")}>
           {children}
           <CookieConsentBanner />
         </NextIntlClientProvider>

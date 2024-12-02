@@ -1,13 +1,9 @@
 "use client";
-import React from "react";
 
-const error = ({ error, reset }: { error: Error; reset: () => void }) => {
-  return (
-    <div>
-      Something went wrong: {error.message}{" "}
-      <button onClick={() => reset()}>Try again</button>
-    </div>
-  );
-};
+import { lazy } from "react";
 
-export default error;
+// Move error content to a separate chunk and load it only when needed
+export default lazy(() => import("@/components/common/Error"));
+
+// Check https://next-intl-docs.vercel.app/docs/environments/error-files
+//TODO: is this principle also applicable to the not-found page?

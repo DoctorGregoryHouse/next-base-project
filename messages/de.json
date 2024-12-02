@@ -2,5 +2,11 @@
   "HomePage": {
     "title": "Hallo Welt!",
     "about": "Gehe zur About Seite"
+  },
+  "NotFoundPage": {
+    "title": "404"
+  },
+  "Error": {
+    "button": "Error auf deutsch"
   }
 }
